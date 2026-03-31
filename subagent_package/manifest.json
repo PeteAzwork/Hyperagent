@@ -1,0 +1,13 @@
+{
+  "name": "example-agent",
+  "version": "0.1.0",
+  "description": "Canonical starter package for hyper-agent experiment",
+  "tool_tier": "observer",
+  "entrypoint": ".claude/agents/example-agent/subagent.md",
+  "allowed_tools": ["read", "glob"],
+  "disallowed_tools": ["git_push", "ssh"],
+  "metadata": {
+    "owner": "hyper-agent-team",
+    "benchmark_version": "bench_v001"
+  }
+}

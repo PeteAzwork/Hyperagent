@@ -1,0 +1,7 @@
+{
+  "task_id": "smoke-001",
+  "ok": true,
+  "stdout": "fresh-session-ok\n",
+  "stderr": "",
+  "latency_ms": 38
+}

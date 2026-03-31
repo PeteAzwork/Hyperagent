@@ -1,0 +1,42 @@
+{
+  "gen_id": "gen-001",
+  "parent_gen_id": null,
+  "benchmark_version": "bench_v001",
+  "created_at": "2026-03-29T06:17:48.228286+00:00",
+  "candidates": [
+    {
+      "candidate_id": "cand-a",
+      "quality": 0.85,
+      "cost_usd": 4.2,
+      "latency_ms": 1200,
+      "regressions": 0,
+      "risk": 0.1,
+      "novelty": 0.2,
+      "safe": true,
+      "smoke_passed": true
+    },
+    {
+      "candidate_id": "cand-b",
+      "quality": 0.9,
+      "cost_usd": 8.3,
+      "latency_ms": 2400,
+      "regressions": 1,
+      "risk": 0.15,
+      "novelty": 0.6,
+      "safe": true,
+      "smoke_passed": true
+    },
+    {
+      "candidate_id": "cand-c",
+      "quality": 0.81,
+      "cost_usd": 2.3,
+      "latency_ms": 900,
+      "regressions": 0,
+      "risk": 0.09,
+      "novelty": 0.1,
+      "safe": true,
+      "smoke_passed": true
+    }
+  ],
+  "notes": "demo generation"
+}
